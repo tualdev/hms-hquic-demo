@@ -72,9 +72,7 @@ class MainActivity : AppCompatActivity() {
 
         HQuicService.init(this)
 
-        mEngine = CronetEngine.Builder(applicationContext)
-            .enableQuic(true)
-            .build()
+        mEngine = HQuicService.engine
 
         mOkhttpClentWithQUIC = OkHttpClient.Builder()
             .readTimeout(30, TimeUnit.SECONDS)
