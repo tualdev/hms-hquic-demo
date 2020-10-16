@@ -1,4 +1,4 @@
-HUAWEI Awareness Kit Demo
+HUAWEI hQUIC Kit Demo
 =====
 
 hQUIC Kit gives your apps low latency, high throughput, and secure and reliable communications capabilities. 
